@@ -1,11 +1,16 @@
 .. module:: mypackage
 
+.. toctree::
+    :hidden:
+
+    api
+
 =================================
 Some Python Callables That I Like
 =================================
 
 In the Standard Library
------------------------
+=======================
 
 As :samp:`\`{name}()\``:
 
@@ -33,13 +38,13 @@ As :samp:`:py:{reftype}:\`{name}\``:
 
 
 In My Package
--------------
+=============
 
 As :samp:`\`{name}()\``:
 
-- `afunc()` — not linked
-- `AClass()` — not linked
-- `AClass.amethod()` — not linked
+- `afunc()` — linked
+- `AClass()` — linked
+- `AClass.amethod()` — linked
 
 As :samp:`\`{name}\``:
 
@@ -50,7 +55,7 @@ As :samp:`\`{name}\``:
 As :samp:`:py:{reftype}:\`{name}()\``:
 
 - :py:func:`afunc()` — linked
-- :py:class:`AClass()` — not linked
+- :py:class:`AClass()` — linked
 - :py:meth:`AClass.amethod()` — linked
 
 As :samp:`:py:{reftype}:\`{name}\``:
