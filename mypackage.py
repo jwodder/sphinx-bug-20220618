@@ -1,0 +1,6 @@
+def afunc():
+    ...
+
+class AClass:
+    def amethod():
+        ...
